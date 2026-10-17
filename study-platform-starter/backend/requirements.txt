@@ -1,0 +1,17 @@
+fastapi>=0.115,<1.0
+uvicorn[standard]>=0.34,<1.0
+pydantic-settings>=2.7,<3.0
+httpx>=0.28,<1.0
+python-multipart>=0.0.20,<1.0
+sqlalchemy>=2.0,<3.0
+psycopg[binary]>=3.2,<4.0
+alembic>=1.14,<2.0
+pyjwt[crypto]>=2.9,<3.0
+boto3>=1.34,<2.0
+pypdf>=5.1,<6.0
+pgvector>=0.3,<0.5
+pytest>=8.3,<9.0
+
+# Optional: local audio transcription (enable with TRANSCRIPTION_PROVIDER=local).
+# Heavy dependency (torch/ctranslate2). Install separately: pip install faster-whisper
+# faster-whisper>=1.0,<2.0
